@@ -11,6 +11,9 @@ Source code for AISTATS 2022 paper: [An Unsupervised Hunt for Gravitational Lens
 
 
 ## Google drive directory structure:
+
+Link: [Google Drive](https://drive.google.com/drive/folders/1jUW5k09BGlxdW13zhRKjahX8XnYmwNeB?usp=sharing)
+
 #### Trained models
 All of our trained models are stored in the models directory. The learning method, training set and augmentations used during training are specified in the directory name.
 For example, "models/pi_model_TrainingV2_with_augmentation_and_GAN" uses the semi-supervised learning method Pi-model along with augmentations and GANs.
