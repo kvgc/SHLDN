@@ -17,7 +17,7 @@ Link: [Google Drive](https://drive.google.com/drive/folders/1jUW5k09BGlxdW13zhRK
 #### Trained models
 All of our trained models are stored in the models directory. The learning method, training set and augmentations used during training are specified in the directory name.
 For example, "models/pi_model_TrainingV2_with_augmentation_and_GAN" uses the semi-supervised learning method Pi-model along with augmentations and GANs.
-Under each model directory, there are typically 4 versions corresponding to 4 independent runs.
+Under each model directory, there are 4 versions corresponding to 4 independent runs.
 #### Prediction scores for Deep Lens Survey images
-We pass all the images from the Deep Lens Survey through all the trained models and store the prediction scores in the csv/ folder corresponding to each model. For example, "csv/pi_model_TrainingV2_with_augmentation_and_GAN/version 1.csv" contains the prediction scores obtained for the v1 version of the pi-model with augmentaion and GANs
+We pass all the images from the Deep Lens Survey through all the trained models (i.e. version 4) and store the prediction scores in the csv/ folder corresponding to each model. For example, "csv/pi_model_TrainingV2_with_augmentation_and_GAN/version 1.csv" contains the prediction scores obtained for the v1 version of the pi-model with augmentaion and GANs
 The csv contains the survey objid, along with the prediction score.
