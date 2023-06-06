@@ -15,7 +15,7 @@ Source code for AISTATS 2022 paper: [An Unsupervised Hunt for Gravitational Lens
 Link: [Google Drive](https://drive.google.com/drive/folders/1mqEVBVmz3XBGTjibrk6Qu0MRpkOPSbG0?usp=drive_link)
 
 #### Datasets
-The original DLS datasets our training data and testing data are made from can be found in the "data/DLS/" directory. The directory contains the ".png" files and the original ".fits" cutout files. Similarly, the training datasets can be found in the "data/TrainingDatasets/" directory and the testing datasets can be found in "data/TestDatasets/" directory.
+The original DLS datasets our training data and testing data are made from can be found in the "data/DLS/" directory. The directory contains the ".png" files and the original ".fits" cutout files. Furthermore, "data/DLS/catalog.csv" contains the RA, DEC, field and sub-field information on all the targets. Training datasets can be found in the "data/TrainingDatasets/" directory and the testing datasets can be found in "data/TestDatasets/" directory.
 
 #### Trained models
 All of our trained models are stored in the models directory. The learning method, training set and augmentations used during training are specified in the directory name.
