@@ -12,12 +12,16 @@ Source code for AISTATS 2022 paper: [An Unsupervised Hunt for Gravitational Lens
 
 ## Google drive directory structure:
 
-Link: [Google Drive](https://drive.google.com/drive/folders/1jUW5k09BGlxdW13zhRKjahX8XnYmwNeB?usp=sharing)
+Link: [Google Drive](https://drive.google.com/drive/folders/1mqEVBVmz3XBGTjibrk6Qu0MRpkOPSbG0?usp=drive_link)
+
+#### Datasets
+The original DLS datasets our training data and testing data are made from can be found in the "data/DLS/" directory. The directory contains the ".png" files and the original ".fits" cutout files. Similarly, the training datasets can be found in the "data/TrainingDatasets/" directory and the testing datasets can be found in "data/TestDatasets/" directory.
 
 #### Trained models
 All of our trained models are stored in the models directory. The learning method, training set and augmentations used during training are specified in the directory name.
-For example, "models/pi_model_TrainingV2_with_augmentation_and_GAN" uses the semi-supervised learning method Pi-model along with augmentations and GANs.
+For example, "results/models/pi_model_TrainingV2_with_augmentation_and_GAN" uses the semi-supervised learning method Pi-model along with augmentations and GANs.
 Under each model directory, there are 4 versions corresponding to 4 independent runs.
+
 #### Prediction scores for Deep Lens Survey images
-We pass all the images from the Deep Lens Survey through all the trained models (i.e. version 4) and store the prediction scores in the csv/ folder corresponding to each model. For example, "csv/pi_model_TrainingV2_with_augmentation_and_GAN/version 1.csv" contains the prediction scores obtained for the v1 version of the pi-model with augmentaion and GANs
+We pass all the images from the Deep Lens Survey through all the trained models (i.e. version 4) and store the prediction scores in the results/csv/ folder corresponding to each model. For example, "results/csv/pi_model_TrainingV2_with_augmentation_and_GAN/version 1.csv" contains the prediction scores obtained for the v1 version of the pi-model with augmentaion and GANs
 The csv contains the survey objid, along with the prediction score.
